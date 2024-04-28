@@ -159,7 +159,7 @@ const DungeonMaster: React.FC = () => {
                             <div className="flex items-center space-x-4">
                                 <Item
                                     icon={<FontAwesomeIcon icon={faBullseye}/>}
-                                    value={enemy.acc}
+                                    value={'+' + enemy.acc}
                                 />
                                 <Item
                                     icon={<FontAwesomeIcon icon={faHammer}/>}
